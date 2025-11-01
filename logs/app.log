@@ -1,0 +1,38 @@
+[2025-07-09T12:46:53.159] [INFO] default - User logged out: vittalrs92@gmail.com
+[2025-07-09T12:47:07.102] [INFO] default - User logged in: vickyrs318@gmail.com
+[2025-07-09T13:08:27.277] [INFO] default - User logged out: vickyrs318@gmail.com
+[2025-07-09T14:05:22.935] [INFO] default - User logged in: vickyrs318@gmail.com
+[2025-07-09T14:12:30.256] [INFO] default - User logged out: vickyrs318@gmail.com
+[2025-07-09T14:12:41.224] [INFO] default - User logged in: vittalrs92@gmail.com
+[2025-07-09T14:14:39.956] [INFO] default - User logged out: vittalrs92@gmail.com
+[2025-07-09T14:14:50.193] [INFO] default - User logged in: vittalrs92@gmail.com
+[2025-07-09T14:17:21.890] [INFO] default - User logged out: vittalrs92@gmail.com
+[2025-07-09T14:17:29.962] [INFO] default - User logged in: vittalrsp@gmail.com
+[2025-07-09T14:19:41.024] [ERROR] default - GetMe error: Cannot read properties of null (reading '_id')
+[2025-07-09T14:19:41.125] [ERROR] default - GetMe error: Cannot read properties of null (reading '_id')
+[2025-07-09T14:20:12.889] [INFO] default - OTP sent to vickyrs318@gmail.com
+[2025-07-09T14:20:49.545] [INFO] default - User registered: vickyrs318@gmail.com
+[2025-07-09T15:33:27.742] [ERROR] default - Logout error: User validation failed: phone: Path `phone` is required.
+[2025-07-09T15:34:09.955] [INFO] default - OTP sent to vittalrs92@gmail.com
+[2025-07-09T15:34:31.805] [ERROR] default - Verify OTP error: User validation failed: phone: Path `phone` is required.
+[2025-07-09T15:35:40.620] [INFO] default - OTP sent to vittalrs92@gmail.com
+[2025-07-09T15:36:10.664] [ERROR] default - Verify OTP error: User validation failed: phone: Path `phone` is required.
+[2025-07-09T15:40:08.918] [ERROR] default - Verify OTP error: User validation failed: phone: Path `phone` is required.
+[2025-07-09T15:43:59.362] [INFO] default - OTP sent to vittalrs92@gmail.com
+[2025-07-09T15:44:40.976] [ERROR] default - Verify OTP error: User validation failed: phone: Path `phone` is required.
+[2025-07-09T15:47:50.974] [ERROR] default - Verify OTP error: User validation failed: phone: Path `phone` is required.
+[2025-07-09T15:48:42.192] [INFO] default - OTP sent to vittalrs92@gmail.com
+[2025-07-09T15:49:03.038] [ERROR] default - Verify OTP error: User validation failed: phone: Path `phone` is required.
+[2025-07-09T15:53:38.222] [INFO] default - OTP sent to vittalrs92@gmail.com
+[2025-07-09T15:53:59.979] [INFO] default - User registered: vittalrs92@gmail.com
+[2025-07-09T15:55:17.481] [INFO] default - User logged out: vittalrs92@gmail.com
+[2025-07-09T15:55:24.644] [ERROR] default - Login error for vickyrs318@gmail.com: Incorrect password.
+[2025-07-09T15:55:32.542] [ERROR] default - Login error for vickyrs318@gmail.com: User validation failed: phone: Path `phone` is required.
+[2025-07-09T15:59:33.107] [INFO] default - OTP sent to vickyrs318@gmail.com
+[2025-07-09T16:00:02.228] [INFO] default - User registered: vickyrs318@gmail.com
+[2025-07-09T16:00:54.677] [INFO] default - User logged out: vickyrs318@gmail.com
+[2025-07-09T16:01:02.641] [INFO] default - User logged in: vickyrs318@gmail.com
+[2025-07-09T16:02:18.318] [INFO] default - User logged out: vickyrs318@gmail.com
+[2025-07-09T16:02:26.694] [INFO] default - User logged in: vittalrs92@gmail.com
+[2025-07-09T16:06:06.908] [INFO] default - User logged out: vittalrs92@gmail.com
+[2025-07-09T16:06:14.600] [INFO] default - User logged in: vickyrs318@gmail.com
