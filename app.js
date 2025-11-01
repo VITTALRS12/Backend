@@ -13,8 +13,8 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",              // local frontend
-      "https://frontend-uowe.onrender.com"  // deployed frontend
+      "http://localhost:5173",              // Local frontend
+      "https://frontend-uowe.onrender.com",  // Deployed frontend
     ],
     credentials: true,
   })
@@ -33,7 +33,7 @@ mongoose
     process.exit(1);
   });
 
-// ✅ STEP 3: Setup Socket.io
+// ✅ STEP 3: Setup HTTP + Socket.io
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
@@ -46,7 +46,7 @@ const io = new Server(server, {
 });
 module.exports.io = io;
 
-// ✅ STEP 4: Socket Logic (if applicable)
+// ✅ STEP 4: Socket Logic
 require("./sockets/referralSocket")(io);
 
 // ✅ STEP 5: Import Routes
@@ -73,15 +73,15 @@ app.use("/api/contest-entries", contestEntryRoutes);
 app.use("/api/shop", shopRoutes);
 app.use("/api/orders", orderRoutes);
 
-// Admin routes
+// ✅ Admin Routes
 app.use("/api/admin/users", userRoutes);
 app.use("/api/admin/orders", orderRoutes);
 app.use("/api/admin/products", productRoutes);
 app.use("/api/admin/dashboard", dashboardRoutes);
 app.use("/api/admin/settings", settingRoutes);
 
-// ✅ STEP 7: Utility routes
-app.get("/", (req, res) => res.send("✅ Backend API is live on Render"));
+// ✅ STEP 7: Utility / Health Routes
+app.get("/", (req, res) => res.send("✅ Backend API is live"));
 app.get("/api/office-location", (req, res) =>
   res.json({
     address: "My Office, Madhapur, Beside Metro Station, Pillar No 1178",
